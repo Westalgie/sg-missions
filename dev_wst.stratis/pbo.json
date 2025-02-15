@@ -1,0 +1,11 @@
+{
+    "compress": {
+        "exclude": [
+            "\\.md$"
+        ],
+        "include": [
+            "\\.txt$"
+        ]
+    },
+    "headers": []
+}
