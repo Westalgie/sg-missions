@@ -9,13 +9,5 @@ _veh addItemCargoGlobal ['ACE_morphine', 8];
 _veh addItemCargoGlobal ['ACE_epinephrine', 8];
 _veh addItemCargoGlobal ['ACE_splint', 10];
 
-_veh addItemCargoGlobal ['rhs_weap_M136_hedp', 1];
-
-_veh addItemCargoGlobal ['rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan', 20];
-_veh addItemCargoGlobal ['rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan_Tracer_Red', 10];
-
-_veh addItemCargoGlobal ['rhs_mag_m67', 10];
-_veh addItemCargoGlobal ['rhs_mag_m18_red', 3];
-_veh addItemCargoGlobal ['rhs_mag_m18_green', 3];
-
-_veh addBackpackCargoGlobal ['TFAR_mr3000_bwmod', 1];
+_veh addItemCargoGlobal ['rhs_mag_30Rnd_556x45_M855A1_Stanag', 15];
+_veh addItemCargoGlobal ['rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red', 7];
