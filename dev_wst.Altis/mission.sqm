@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1545;
+	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=19095;
+		nextID=19106;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=223;
+		nextID=229;
 	};
 	class Camera
 	{
-		pos[]={9184.502,25.708332,21484.342};
-		dir[]={-0.35844982,-0.60303968,0.71270728};
-		up[]={-0.27097085,0.79767287,0.53877491};
-		aside[]={0.89341414,-1.072709e-06,0.44933513};
+		pos[]={12799.151,25.027428,9267.9209};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -502,7 +502,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=94;
+		items=95;
 		class Item0
 		{
 			dataType="Logic";
@@ -23900,12 +23900,12 @@ class Mission
 			dataType="Comment";
 			class PositionInfo
 			{
-				position[]={1446.9637,2.7016144,290.54492};
+				position[]={1446.964,2.7019999,290.54501};
 				angles[]={0.0016194459,0.32282615,0};
 			};
-			description="AH-64D" \n "- БК пушки x0.5 (всего 600)" \n "- Лвушки x2 (всего 480)";
+			description="AH-64D" \n "- БК пушки x0.5 (всего 600)";
 			id=14017;
-			atlOffset=1.4089222;
+			atlOffset=1.4093082;
 		};
 		class Item9
 		{
@@ -25320,7 +25320,7 @@ class Mission
 					fillName="SolidBorder";
 					a=2237.229;
 					b=814.87299;
-					angle=46.152992;
+					angle=46.152985;
 					drawBorder=1;
 					id=16204;
 					atlOffset=8.6682014;
@@ -25427,7 +25427,7 @@ class Mission
 				position[]={17432.35,14.637,13149.885};
 				angles[]={0.0009134906,4.7607799,0.00048828125};
 			};
-			description="- 20 ПТ мин" \n "- 10 растяжек";
+			description="- 20 ПТ мин" \n "- 10 сигнальных растяжек";
 			id=18334;
 			atlOffset=0.00018119812;
 		};
@@ -38150,6 +38150,18 @@ class Mission
 			};
 			id=19065;
 			atlOffset=-1.9073486e-06;
+		};
+		class Item94
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={9124.459,17.125788,21460.055};
+				angles[]={0.0080009829,0.32282615,6.2778587};
+			};
+			description="HMMWV TOW 2 пуска";
+			id=19095;
+			atlOffset=2.0980835e-05;
 		};
 	};
 	class Connections
