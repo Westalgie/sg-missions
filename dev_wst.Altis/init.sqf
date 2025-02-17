@@ -30,7 +30,7 @@ if (!isDedicated) then {
 			["battle_group_3", "Альфа 1-6, Альфа 2-2, Альфа 2-4", true, "Отделение пехоты USMC + 1x ПЗРК + Weapon Squad + Assault Section. Желтая зона спавна", ["reg_1", "reg_2"], []],
 			["battle_group_2", "Альфа 1-5, Альфа 2-1, Альфа 2-3", true, "Отделение пехоты USMC + 1x ПЗРК + Weapon Squad + Assault Section. Желтая зона спавна", ["reg_1", "reg_2"], []],
 			["battle_group_1", "Альфа 1-3 и Альфа 1-4", true, "2 отделения пехоты USMC. Желтые зоны спавна", ["reg_1", "reg_2"], []],
-			["hq_group", "Альфа 1-1 и Альфа 1-2", true, "Отделение КСа и взводное отделение USMC. Розовые зоны спавна", ["heavy_1", "heavy_2"], []]
+			["hq_group", "Альфа 1-1 и Альфа 1-2", true, "Отделение КСа и взводное отделение USMC c HMMWV TOW. Розовые зоны спавна", ["com_1", "com_2"], []]
 		]
 	]
 ] execVM "Scripts\Premade\fnc_kik_spawnChoice.sqf";
