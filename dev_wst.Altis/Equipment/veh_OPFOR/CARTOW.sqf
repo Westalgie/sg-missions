@@ -18,4 +18,4 @@ _veh addItemCargoGlobal ['rhs_mag_m18_green', 3];
 
 _veh addBackpackCargoGlobal ['B_Kitbag_rgr', 1];
 
-_veh addItemCargoGlobal ["ace_mag_TOW2A", 2];
+_veh addItemCargoGlobal ["ace_mag_TOW2A", 4];

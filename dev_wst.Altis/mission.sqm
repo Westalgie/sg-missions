@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=229;
+		nextID=241;
 	};
 	class Camera
 	{
-		pos[]={12799.151,25.027428,9267.9209};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={17427.85,39.964066,13129.173};
+		dir[]={0.07532429,-0.70395869,0.70624781};
+		up[]={0.074657202,0.71023542,0.69999152};
+		aside[]={0.99436861,3.1468517e-07,-0.10605396};
 	};
 };
 binarizationWanted=0;
@@ -410,6 +410,7 @@ randomSeed=13398865;
 class ScenarioData
 {
 	author="Zets";
+	respawn=1;
 };
 class CustomAttributes
 {
@@ -464,7 +465,7 @@ class CustomAttributes
 							class data
 							{
 								singleType="STRING";
-								value="None";
+								value="Seagull";
 							};
 						};
 					};
@@ -25320,7 +25321,7 @@ class Mission
 					fillName="SolidBorder";
 					a=2237.229;
 					b=814.87299;
-					angle=46.152985;
+					angle=46.152981;
 					drawBorder=1;
 					id=16204;
 					atlOffset=8.6682014;
@@ -38156,12 +38157,12 @@ class Mission
 			dataType="Comment";
 			class PositionInfo
 			{
-				position[]={9124.459,17.125788,21460.055};
+				position[]={9124.459,17.125999,21460.055};
 				angles[]={0.0080009829,0.32282615,6.2778587};
 			};
-			description="HMMWV TOW 2 пуска";
+			description="HMMWV TOW 4 пуска";
 			id=19095;
-			atlOffset=2.0980835e-05;
+			atlOffset=0.00023269653;
 		};
 	};
 	class Connections
