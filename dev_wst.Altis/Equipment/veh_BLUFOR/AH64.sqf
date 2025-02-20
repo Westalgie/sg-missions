@@ -19,5 +19,3 @@ _veh addBackpackCargoGlobal ['csog_p53', 1];
 
 _veh removeMagazineTurret ["rhs_mag_30x113mm_M789_HEDP_1200", [0]];
 _veh addMagazineTurret ["rhs_mag_30x113mm_M789_HEDP_1200", [0], 600];
-_veh removeMagazineTurret ["240Rnd_CMFlare_Chaff_Magazine", [-1]];
-_veh addMagazineTurret ["240Rnd_CMFlare_Chaff_Magazine", [-1], 480];
